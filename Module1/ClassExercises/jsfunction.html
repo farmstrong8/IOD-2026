@@ -1,0 +1,18 @@
+<!-- jsfunction.html -->
+
+<html>
+    <body>
+        <h2>A Simple JavaScript Function</h2>
+        <!-- This example button calls a function which displays an alert: -->
+        <p id="demo">Click the button to say hello.</p>
+        <button id="helloBtn">Say Hello</button>
+
+        <script>
+            function helloWorld() {
+                alert("Hello World!");
+            }
+            const button = document.getElementById("helloBtn");
+            button.addEventListener("click", helloWorld);
+        </script>
+    </body>
+</html>
