@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+.class-selector {
+    color: red;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -39,4 +43,8 @@ footer {
     text-align: center;
     padding: 0.5em;
     font-size: 0.9em;
+}
+
+.parent-selector > .child-selector {
+    color: blue;
 }
